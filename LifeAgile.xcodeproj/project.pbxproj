@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537754722B79182B00E0D053 /* LifeAgileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537754712B79182B00E0D053 /* LifeAgileApp.swift */; };
+		537754742B79182B00E0D053 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537754732B79182B00E0D053 /* ContentView.swift */; };
+		537754762B79182D00E0D053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537754752B79182D00E0D053 /* Assets.xcassets */; };
+		537754792B79182D00E0D053 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537754782B79182D00E0D053 /* Preview Assets.xcassets */; };
+		537754842B79182D00E0D053 /* LifeAgileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537754832B79182D00E0D053 /* LifeAgileTests.swift */; };
+		5377548E2B79182D00E0D053 /* LifeAgileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377548D2B79182D00E0D053 /* LifeAgileUITests.swift */; };
+		537754902B79182D00E0D053 /* LifeAgileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377548F2B79182D00E0D053 /* LifeAgileUITestsLaunchTests.swift */; };
+		5377549F2B79210C00E0D053 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377549E2B79210C00E0D053 /* TimerViewModel.swift */; };
+		537754A22B79214800E0D053 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537754A12B79214800E0D053 /* TimerView.swift */; };
+		537754A42B7925A800E0D053 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537754A32B7925A800E0D053 /* ToDoListView.swift */; };
+		537754A62B79325900E0D053 /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537754A52B79325900E0D053 /* ToDoListViewModel.swift */; };
+		537754A92B7932A800E0D053 /* ToDoNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537754A82B7932A800E0D053 /* ToDoNetworkManager.swift */; };
+		537754AB2B79332200E0D053 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537754AA2B79332200E0D053 /* ToDo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		537754802B79182D00E0D053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537754662B79182B00E0D053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5377546D2B79182B00E0D053;
+			remoteInfo = LifeAgile;
+		};
+		5377548A2B79182D00E0D053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537754662B79182B00E0D053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5377546D2B79182B00E0D053;
+			remoteInfo = LifeAgile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5377546E2B79182B00E0D053 /* LifeAgile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeAgile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		537754712B79182B00E0D053 /* LifeAgileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeAgileApp.swift; sourceTree = "<group>"; };
+		537754732B79182B00E0D053 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		537754752B79182D00E0D053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		537754782B79182D00E0D053 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5377547A2B79182D00E0D053 /* LifeAgile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LifeAgile.entitlements; sourceTree = "<group>"; };
+		5377547F2B79182D00E0D053 /* LifeAgileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeAgileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537754832B79182D00E0D053 /* LifeAgileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeAgileTests.swift; sourceTree = "<group>"; };
+		537754892B79182D00E0D053 /* LifeAgileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeAgileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5377548D2B79182D00E0D053 /* LifeAgileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeAgileUITests.swift; sourceTree = "<group>"; };
+		5377548F2B79182D00E0D053 /* LifeAgileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeAgileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5377549E2B79210C00E0D053 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		537754A12B79214800E0D053 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		537754A32B7925A800E0D053 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		537754A52B79325900E0D053 /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		537754A82B7932A800E0D053 /* ToDoNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoNetworkManager.swift; sourceTree = "<group>"; };
+		537754AA2B79332200E0D053 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5377546B2B79182B00E0D053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5377547C2B79182D00E0D053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537754862B79182D00E0D053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		537754652B79182B00E0D053 = {
+			isa = PBXGroup;
+			children = (
+				537754702B79182B00E0D053 /* LifeAgile */,
+				537754822B79182D00E0D053 /* LifeAgileTests */,
+				5377548C2B79182D00E0D053 /* LifeAgileUITests */,
+				5377546F2B79182B00E0D053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5377546F2B79182B00E0D053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5377546E2B79182B00E0D053 /* LifeAgile.app */,
+				5377547F2B79182D00E0D053 /* LifeAgileTests.xctest */,
+				537754892B79182D00E0D053 /* LifeAgileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		537754702B79182B00E0D053 /* LifeAgile */ = {
+			isa = PBXGroup;
+			children = (
+				537754A72B79328800E0D053 /* NetworkManager */,
+				537754A02B79213800E0D053 /* View */,
+				5377549D2B7920EF00E0D053 /* ViewModel */,
+				5377549C2B7920E700E0D053 /* Model */,
+				537754712B79182B00E0D053 /* LifeAgileApp.swift */,
+				537754732B79182B00E0D053 /* ContentView.swift */,
+				537754752B79182D00E0D053 /* Assets.xcassets */,
+				5377547A2B79182D00E0D053 /* LifeAgile.entitlements */,
+				537754772B79182D00E0D053 /* Preview Content */,
+			);
+			path = LifeAgile;
+			sourceTree = "<group>";
+		};
+		537754772B79182D00E0D053 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				537754782B79182D00E0D053 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		537754822B79182D00E0D053 /* LifeAgileTests */ = {
+			isa = PBXGroup;
+			children = (
+				537754832B79182D00E0D053 /* LifeAgileTests.swift */,
+			);
+			path = LifeAgileTests;
+			sourceTree = "<group>";
+		};
+		5377548C2B79182D00E0D053 /* LifeAgileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5377548D2B79182D00E0D053 /* LifeAgileUITests.swift */,
+				5377548F2B79182D00E0D053 /* LifeAgileUITestsLaunchTests.swift */,
+			);
+			path = LifeAgileUITests;
+			sourceTree = "<group>";
+		};
+		5377549C2B7920E700E0D053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				537754AA2B79332200E0D053 /* ToDo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5377549D2B7920EF00E0D053 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5377549E2B79210C00E0D053 /* TimerViewModel.swift */,
+				537754A52B79325900E0D053 /* ToDoListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		537754A02B79213800E0D053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				537754A12B79214800E0D053 /* TimerView.swift */,
+				537754A32B7925A800E0D053 /* ToDoListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		537754A72B79328800E0D053 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				537754A82B7932A800E0D053 /* ToDoNetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5377546D2B79182B00E0D053 /* LifeAgile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537754932B79182D00E0D053 /* Build configuration list for PBXNativeTarget "LifeAgile" */;
+			buildPhases = (
+				5377546A2B79182B00E0D053 /* Sources */,
+				5377546B2B79182B00E0D053 /* Frameworks */,
+				5377546C2B79182B00E0D053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeAgile;
+			productName = LifeAgile;
+			productReference = 5377546E2B79182B00E0D053 /* LifeAgile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5377547E2B79182D00E0D053 /* LifeAgileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537754962B79182D00E0D053 /* Build configuration list for PBXNativeTarget "LifeAgileTests" */;
+			buildPhases = (
+				5377547B2B79182D00E0D053 /* Sources */,
+				5377547C2B79182D00E0D053 /* Frameworks */,
+				5377547D2B79182D00E0D053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537754812B79182D00E0D053 /* PBXTargetDependency */,
+			);
+			name = LifeAgileTests;
+			productName = LifeAgileTests;
+			productReference = 5377547F2B79182D00E0D053 /* LifeAgileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		537754882B79182D00E0D053 /* LifeAgileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537754992B79182D00E0D053 /* Build configuration list for PBXNativeTarget "LifeAgileUITests" */;
+			buildPhases = (
+				537754852B79182D00E0D053 /* Sources */,
+				537754862B79182D00E0D053 /* Frameworks */,
+				537754872B79182D00E0D053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5377548B2B79182D00E0D053 /* PBXTargetDependency */,
+			);
+			name = LifeAgileUITests;
+			productName = LifeAgileUITests;
+			productReference = 537754892B79182D00E0D053 /* LifeAgileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		537754662B79182B00E0D053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5377546D2B79182B00E0D053 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5377547E2B79182D00E0D053 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5377546D2B79182B00E0D053;
+					};
+					537754882B79182D00E0D053 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5377546D2B79182B00E0D053;
+					};
+				};
+			};
+			buildConfigurationList = 537754692B79182B00E0D053 /* Build configuration list for PBXProject "LifeAgile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 537754652B79182B00E0D053;
+			productRefGroup = 5377546F2B79182B00E0D053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5377546D2B79182B00E0D053 /* LifeAgile */,
+				5377547E2B79182D00E0D053 /* LifeAgileTests */,
+				537754882B79182D00E0D053 /* LifeAgileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5377546C2B79182B00E0D053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537754792B79182D00E0D053 /* Preview Assets.xcassets in Resources */,
+				537754762B79182D00E0D053 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5377547D2B79182D00E0D053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537754872B79182D00E0D053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5377546A2B79182B00E0D053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537754A62B79325900E0D053 /* ToDoListViewModel.swift in Sources */,
+				537754742B79182B00E0D053 /* ContentView.swift in Sources */,
+				5377549F2B79210C00E0D053 /* TimerViewModel.swift in Sources */,
+				537754AB2B79332200E0D053 /* ToDo.swift in Sources */,
+				537754A22B79214800E0D053 /* TimerView.swift in Sources */,
+				537754722B79182B00E0D053 /* LifeAgileApp.swift in Sources */,
+				537754A92B7932A800E0D053 /* ToDoNetworkManager.swift in Sources */,
+				537754A42B7925A800E0D053 /* ToDoListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5377547B2B79182D00E0D053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537754842B79182D00E0D053 /* LifeAgileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537754852B79182D00E0D053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5377548E2B79182D00E0D053 /* LifeAgileUITests.swift in Sources */,
+				537754902B79182D00E0D053 /* LifeAgileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		537754812B79182D00E0D053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5377546D2B79182B00E0D053 /* LifeAgile */;
+			targetProxy = 537754802B79182D00E0D053 /* PBXContainerItemProxy */;
+		};
+		5377548B2B79182D00E0D053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5377546D2B79182B00E0D053 /* LifeAgile */;
+			targetProxy = 5377548A2B79182D00E0D053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		537754912B79182D00E0D053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		537754922B79182D00E0D053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		537754942B79182D00E0D053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LifeAgile/LifeAgile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeAgile/Preview Content\"";
+				DEVELOPMENT_TEAM = LHUW39Q524;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LifeAgile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		537754952B79182D00E0D053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LifeAgile/LifeAgile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeAgile/Preview Content\"";
+				DEVELOPMENT_TEAM = LHUW39Q524;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LifeAgile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		537754972B79182D00E0D053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LHUW39Q524;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LifeAgileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeAgile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeAgile";
+			};
+			name = Debug;
+		};
+		537754982B79182D00E0D053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LHUW39Q524;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LifeAgileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeAgile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeAgile";
+			};
+			name = Release;
+		};
+		5377549A2B79182D00E0D053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LHUW39Q524;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LifeAgileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LifeAgile;
+			};
+			name = Debug;
+		};
+		5377549B2B79182D00E0D053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LHUW39Q524;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LifeAgileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LifeAgile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537754692B79182B00E0D053 /* Build configuration list for PBXProject "LifeAgile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537754912B79182D00E0D053 /* Debug */,
+				537754922B79182D00E0D053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537754932B79182D00E0D053 /* Build configuration list for PBXNativeTarget "LifeAgile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537754942B79182D00E0D053 /* Debug */,
+				537754952B79182D00E0D053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537754962B79182D00E0D053 /* Build configuration list for PBXNativeTarget "LifeAgileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537754972B79182D00E0D053 /* Debug */,
+				537754982B79182D00E0D053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537754992B79182D00E0D053 /* Build configuration list for PBXNativeTarget "LifeAgileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5377549A2B79182D00E0D053 /* Debug */,
+				5377549B2B79182D00E0D053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 537754662B79182B00E0D053 /* Project object */;
+}
